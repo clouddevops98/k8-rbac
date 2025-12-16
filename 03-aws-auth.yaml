@@ -7,7 +7,7 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
 
-  mapRoles: |
+  mapUsers: |
     - groups:
       - roboshop-trainee
       userarn: arn:aws:iam::930832106480:user/
