@@ -6,7 +6,6 @@ data:
       - system:bootstrappers
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
-
   mapUsers: |
     - groups:
       - roboshop-trainee
@@ -21,6 +20,5 @@ metadata:
   creationTimestamp: "2025-12-16T05:24:34Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1186"
   uid: 0fe40a11-85f6-4f1e-b938-33deaaa966da
 
