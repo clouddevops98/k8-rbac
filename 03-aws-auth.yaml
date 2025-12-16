@@ -10,7 +10,7 @@ data:
   mapUsers: |
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::930832106480:user/
+      userarn: arn:aws:iam::930832106480:user/somayya
       username: somayya
     - groups:
       - roboshop-admin
